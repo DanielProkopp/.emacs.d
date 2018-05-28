@@ -1,0 +1,24 @@
+cd .emacs.d/elpa/sly-20180412.355/
+ls
+cd slynk/
+ls
+cd ..
+ls
+cd lib/
+ls
+cd ..
+cd contrib/
+ls
+cd
+exit
+cd .emacs.d/elpa/sly-20180412.355/
+make -C
+clear
+
+
+make -C ./
+exit
+cd sly/doc/
+ls
+make
+make all
