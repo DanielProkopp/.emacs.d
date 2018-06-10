@@ -65,7 +65,7 @@
 ;; Adding this code will make Emacs enter yaml mode whenever you open
 ;; a .yml file
 (add-to-list 'load-path "~/.emacs.d/vendor")
-(add-to-list 'load-path "~/sly")
+(add-to-list 'load-path "~/.slime")
 
 ;;;;
 ;; Customization
@@ -100,7 +100,7 @@
 (load "setup-clojure.elc")
 (load "setup-js.elc")
 (load "setup-lisp-mode.elc")
-(load "setup-sly-repl.elc")
+
 (load "setup-c-mode.elc")
 
 
@@ -130,7 +130,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (ac-sly undo-tree company-c-headers neotree sly-quicklisp sly-named-readtables sly-macrostep sly-hello-world slime-company highlight-quoted flx flx-ido flycheck-clojure tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking cider))))
+    (ac-slime slime-repl undo-tree company-c-headers neotree slime-company highlight-quoted flx flx-ido flycheck-clojure tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

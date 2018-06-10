@@ -1,0 +1,19 @@
+#define NO_BIT_DEFINES
+#include "pic16f88.h"
+#include <stdint.h>
+#include <pic16/delay.h>
+
+#define CLOCKFREQ   (4U*1000U*1000U)
+
+
+void main(void){
+	TRISC = 0x00;
+	PORTC = 0x00;
+	while(1){
+		PORTC=0x01;
+		delay1mtcy(500);
+		PORTC=0x00;
+		delay1mtcy(500);	
+	}
+
+}

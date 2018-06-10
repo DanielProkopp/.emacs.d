@@ -1,0 +1,20 @@
+(ql:quickload '(usocket
+                trivial-gray-streams
+                flexi-streams))
+
+;; (defclass binary-in-stream (trivial-gray-streams:fundamental-binary-input-stream)
+;;   )
+
+(defparameter *command-list* '(get-dados
+                               get-id))
+
+(defun command-detect (command)
+  )
+
+
+(defun create-mockup-client (ip port)
+  (let* ((socket (usocket:socket-connect ip port 
+                                         :protocol :ip
+                                         :element-type '(unsigned-byte 8)))
+         )
+    ))

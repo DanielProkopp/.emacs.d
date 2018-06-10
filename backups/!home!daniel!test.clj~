@@ -1,0 +1,13 @@
+(ns fuck-yourself)
+
+(defn hello [name]
+  (println (str  "Hello World, " name)))
+
+(dotimes [n 5]
+  (dotimes [i 5]
+    (println n i)))
+
+(-> (str "a" "b" "c" "d" "e")
+    .toUpper)
+
+(hell)

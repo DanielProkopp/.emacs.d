@@ -1,0 +1,21 @@
+HEX=main.hex
+SRC=src/main.c
+CC=sdcc
+FAMILY=pic14
+PROC=16f88
+PIC_PROGRAMMER=picprogrammer/picpro.py
+
+all: $(SRC:.c=.hex)
+
+
+$(SRC:.c=.hex): $(SRC)
+	$(CC) --use-non-free -m$(FAMILY) -p$(PROC) $^
+
+clean:
+	
+
+flash:
+	$(PIC_PROGRAMMER) -i $(HEX) --pic_type=16f88 -p /dev/ttyUSB0
+
+
+.PHONY: all clean

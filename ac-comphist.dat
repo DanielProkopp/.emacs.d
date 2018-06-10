@@ -1,12 +1,174 @@
-((("add-to-list" .
-   [0 0 0 0 0 0 3 0 0 0 0])
-  ("sly-mrepl" .
-   [0 0 1 0 0 1 0 0 1])
-  ("ac-sly" .
-   [0 0 1 0 0 0])
-  ("p" .
+((("formatter" .
+   [0 0 0 0 0 0 0 1 0])
+  (":end" .
+   [1 0 0 1])
+  (":start" .
+   [0 0 0 0 1 1])
+  ("seq" .
+   [2 0 0])
+  ("read-sequence" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("hexburn:simple-read" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0])
+  ("read-line" .
+   [0 0 0 0 0 1 0 0 0])
+  ("str" .
+   [2 0 0])
+  ("x" .
    [1])
+  ("serial:serial-device-output" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("string-to-octet-list" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("write-byte" .
+   [1 0 0 0 0 1 1 0 0 0])
+  ("unsigned-byte" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("coerce" .
+   [1 0 0 0 0 0])
+  ("hexburn:string-to-list" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("string-to-list" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("lst" .
+   [2 0 0])
+  ("length" .
+   [1 0 0 0 0 0])
+  ("char-code" .
+   [1 0 0 0 0 1 0 0 0])
+  ("reverse" .
+   [3 0 0 0 0 0 0])
+  ("str2" .
+   [1 0 0 1])
+  ("char" .
+   [2 0 0 0])
+  ("push" .
+   [3 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  ("do" .
+   [1 0])
+  ("let" .
+   [2 0 0])
+  ("rainbow-delimiters" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("enable-paredit-mode" .
    [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("rainbow-delimiters" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])))
+  ("p" .
+   [1])
+  ("ac-sly" .
+   [0 0 1 0 0 0])
+  ("sly-mrepl" .
+   [0 0 1 0 0 1 0 0 1])
+  ("add-to-list" .
+   [0 0 0 0 0 0 3 0 0 0 0])
+  ("*firmware-type-list*" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("*core-type-list*" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("HexBurn" .
+   [0 0 0 0 0 0 1])
+  ("asdf:load-system" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("hexburn" .
+   [1 0 0 0 0 0 0])
+  ("HexBurn:*" .
+   [0 0 0 0 0 0 0 0 1])
+  ("HexBurn:*core-type-list*" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("serial:serial-device-io" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ql:quickload" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("port" .
+   [9 0 0 0])
+  ("stream" .
+   [9 0 0 0 0 0])
+  ("flexi-streams" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("device" .
+   [1 0 0 0 0 0])
+  ("format" .
+   [5 0 0 2 0 0])
+  ("read-byte" .
+   [0 0 0 1 1 1 0 0 0])
+  ("c" .
+   [1])
+  ("serial" .
+   [1 0 0 0 0 0])
+  ("concatenate" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("list" .
+   [2 0 0 0])
+  ("@export" .
+   [0 0 0 1 0 0 0])
+  ("HEXBURN::SIMPLE-CONNECTION" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("simple-connection" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("defun" .
+   [4 0 0 0 0])
+  ("data" .
+   [6 0 0 0])
+  ("simple-read" .
+   [1 0 0 1 0 1 1 0 0 0 0])
+  ("simple-write" .
+   [0 0 0 0 1 0 1 0 0 0 0 0])
+  ("makunbound" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("Hexburn" .
+   [0 0 0 1 0 0 0])
+  ("hexburn:simple-write" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0])
+  ("flet" .
+   [0 0 0 1])
+  ("dolist" .
+   [3 0 0 1 0 0])
+  ("flexi-streams:string-to-octets" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("print" .
+   [1 0 0 0 0])
+  ("dotimes" .
+   [3 0 0 0 0 0 0])
+  ("string-to-octets" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("data-size" .
+   [0 0 0 0 1 1 0 0 0])
+  ("in-package" .
+   [0 0 0 1 0 0 0 0 0 0])
+  (":cl-user" .
+   [1 0 0 0 0 0 0 0])
+  ("write" .
+   [1 0 0 0 0])
+  ("write-serial-byte-vector" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":initial-contents" .
+   [0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0])
+  ("require" .
+   [0 0 0 0 1 0 0])
+  ("request-response" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("hexburn:request-response" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("make-array" .
+   [0 0 0 0 0 0 1 1 0 0])
+  ("x50" .
+   [3 0 0])
+  ("read-serial-byte-vector" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("buffer" .
+   [0 0 2 0 0 0])
+  ("rs1" .
+   [1 0 0])
+  (":element-type" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("write-serial-byte" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  (":timeout-ms" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("handler-case" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("timeout-error" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("error" .
+   [1 0 0 0 0])))

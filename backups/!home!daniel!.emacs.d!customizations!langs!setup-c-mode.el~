@@ -1,0 +1,22 @@
+
+(setq c-default-style "k&r"
+      c-basic-offset 4
+      indent-tabs-mode t
+      c-tab-always-indent t)
+
+(add-hook 'c-mode-common-hook '(lambda () (c-toggle-auto-state 1)))
+
+
+(electric-pair-mode 1)
+
+(defun set-newline-and-indent ()
+  (local-set-key (kbd "RET") 'newline-and-indent))
+
+(add-hook 'c-mode-hook 'set-newline-and-indent)
+(add-hook 'c-mode-hook
+	  (lambda ()	
+	    (add-to-list 'c-mode-hook 'highlight-numbers-mode)
+            (add-to-list 'c-mode-hook 'company-mode)
+            (add-to-list 'c-mode-hook 'company-c-headers)
+            (add-to-list 'c-mode-hook 'company-complete)
+	    (add-to-list 'c-mode-hook 'flycheck-mode)))

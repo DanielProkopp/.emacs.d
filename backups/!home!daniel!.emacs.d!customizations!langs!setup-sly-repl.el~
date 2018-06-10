@@ -1,0 +1,14 @@
+(require 'sly)
+(require 'sly-macrostep)
+(require 'sly-repl-ansi-color)
+(require 'sly-quicklisp)
+
+(push 'sly-repl-ansi-color sly-contribs)
+(add-hook 'sly-mode-hook  'rainbow-delimiters-mode)
+
+
+
+(eval-after-load 'sly-mrepl
+   `(define-key sly-mrepl-mode-map (kbd "C-c C-k")
+                'sly-mrepl-clear-repl))
+

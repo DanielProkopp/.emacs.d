@@ -1,0 +1,71 @@
+#-cl-serial (ql:quickload "cl-serial")
+;;#-cl-annot (ql:quickload "cl-annot")
+#-flexi-streams (ql:quickload "flexi-streams")
+
+
+(defpackage #:HexBurn
+  (:use #:cl #:flexi-streams)
+  (:export *firmware-type-list*
+           *core-type-list*
+           string-to-list
+           string-to-octet-list
+           simple-read
+           simple-write))
+
+(in-package :HexBurn)
+
+
+(defvar *firmware-type-list* '(0  "K128"
+                               1  "K149-A"
+                               2  "K149-B"
+                               3  "K150"))
+
+
+(defvar *core-type-list* '(0  "NA"
+                           1  "18Fx230x330"
+                           2  "18Fxx2xx8"
+                           3  "16F87/88"
+                           4  "12C50x"
+                           5  '("12C67x" "16C50x" "16Cxxx")
+                           6  '("16C8x" "16F8x" "16F87x" "16F62x")
+                           7  '("16F7x" "16F7x7")
+                           8  "12F67x"
+                           9  "16F87xA"
+                           10 "16F818"))
+
+
+(defun simple-read (port)
+  (serial:with-serial-device 
+   (device serial:serial-device-input
+           :name port
+           :baudrate 19200
+           :stopbits 1
+           :parity #\N)
+   (let ((stream (make-flexi-stream device))
+         (seq))
+      (read-sequence seq stream :start 0 :end 1)
+      seq)))
+
+(defun simple-write (port data)
+  (serial:with-serial-device 
+   (device serial:serial-device-output
+           :name port
+           :baudrate 19200
+           :stopbits 1
+           :parity #\N)
+   (let ((stream (make-flexi-stream device)))
+     (dolist (x (string-to-octet-list data))
+       (write-byte x stream))
+     (write-byte #x0A stream))))
+
+(defun string-to-list (str)
+  (let ((lst))
+    (dotimes (x (length str))
+      (push (char-code (char str x)) lst))
+    (reverse lst)))
+
+(defun string-to-octet-list (str)
+  (let ((lst))
+    (dotimes (x (length str))
+      (push (coerce (char-code (char str x)) '(unsigned-byte 8)) lst))
+    (reverse lst)))

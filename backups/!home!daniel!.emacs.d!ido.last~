@@ -1,0 +1,103 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/daniel/Downloads/" . "kitsrus_pic_programmer/")
+ ("/usr/share/sdcc/non-free/include/" . "pic14/")
+ ("/usr/share/sdcc/non-free/" . "include/")
+ ("/usr/share/sdcc/include/" . "pic14/")
+ ("/usr/share/sdcc/" . "non-free/")
+ ("/usr/share/" . "sdcc/")
+ ("/usr/" . "share/")
+ ("/home/daniel/.emacs.d/" . "customizations/")
+ ("/home/daniel/quicklisp/local-projects/" . "HexBurn/")
+ ("/home/daniel/quicklisp/" . "local-projects/")
+ ("/home/daniel/" . ".emacs.d/")
+ ("/home/" . "daniel/")
+ ("/" . "usr/")
+ ("/home/daniel/.emacs.d/customizations/" . "langs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/daniel/.emacs.d/"
+ "/home/daniel/.emacs.d/customizations/langs/"
+ "/home/daniel/"
+ "/home/daniel/quicklisp/local-projects/HexBurn/"
+ "/home/daniel/quicklisp/"
+ "/home/daniel/Downloads/kitsrus_pic_programmer/"
+ "/usr/share/sdcc/non-free/include/pic14/"
+ "/usr/share/sdcc/include/pic14/"
+ "/home/daniel/.emacs.d/customizations/"
+ "/home/daniel/emacs.d/"
+ "/home/daniel/quicklisp/local-projects/cl-serial/"
+ "/home/daniel/quicklisp/local-projects/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "setup-lisp-mode.el"
+ "hexburn.lisp"
+ "package.lisp"
+ "protocol.txt"
+ "HexBurn.lisp"
+ "asdf.lisp"
+ ".ICEauthority"
+ "HexBurn.asd"
+ "pic16f88.h"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/daniel/.emacs.d/customizations/langs/" (23324 28656 512058 162000) "setup-lisp-mode.elc" "setup-js.elc" "slime-repl-ansi-color.elc" "setup-js.el" "setup-clojure.elc" "setup-c-mode.el" "slime-repl-ansi-color.el" "../" "./" "setup-clojure.el" "setup-lisp-mode.el" "setup-c-mode.elc")
+
+ ("/home/daniel/.emacs.d/" (23324 28656 424057 537000) "init.elc" "auto-save-list/" "projectile-bookmarks.eld" "backups/" "README.md" ".smex-items" "eshell/" "init.el" "themes/" ".git/" "network-security.data" "../" "./" "customizations/" ".recentf" "init.el~" "cider-history" "elpa/" "ido.last" ".gitignore" "ac-comphist.dat")
+
+ ("/home/daniel/" (23324 28711 316447 611000) ".bashrc" ".xsession-errors" ".linuxmint/" ".bash_logout" "Modelos/" ".local/" ".sbclrc" ".gnupg/" "Música/" "Público/" ".slime/" ".gconf/" "quicklisp/" "Documentos/" ".cinnamon/" ".ICEauthority" ".config/" "Vídeos/" ".sudo_as_admin_successful" ".Xauthority" ".emacs.d/" "Área de Trabalho/" ".dmrc" "../" "./" ".thunderbird/" ".profile" ".dbus/" ".mozilla/" ".cache/" "Imagens/" "Downloads/")
+
+ ("/home/daniel/.emacs.d/customizations/" (23307 35254 0 0) "navigation.el" "elisp-editing.el" "editing.elc" "shell-integration.elc" "navigation.elc" "ui.el" "../" "misc.elc" "./" "elisp-editing.elc" "misc.el" "ui.elc" "editing.el" "langs/" "shell-integration.el")
+
+ ("/home/daniel/quicklisp/local-projects/HexBurn/" (23316 8347 140423 699000) "package.lisp" "HexBurn.lisp" "protocol.txt" "HexBurn.asd" "README.md" "../" "./")
+
+ ("/home/daniel/Downloads/kitsrus_pic_programmer/" (23314 63845 250286 753000) "data_string.pyc" "hex_file_reader.pyc" "protocol.txt" "picpro.py" "hex_file_reader.py" "data_string.py" "COPYRIGHT" "chipinfo.cid" "../" "./")
+
+ ("/home/daniel/Downloads/" (23314 60258 946818 933000) "kitsrus_pic_programmer/" "Driver_Software_Gravador_PIC_K150/" "Driver_Software_Gravador_PIC_K150.rar" "pic_programmer-0.2.zip" "tutorialK150Linux.pdf" "MPLABX-v4.15-linux-installer.sh" "sdccman.pdf" "PIC16F873A.pdf" "emacs-sdcc/" "Autodesk_EAGLE_9.0.1_English_Linux_64bit.tar.gz" "xc8-v1.45-full-install-linux-installer.run" "MPLABX-v4.15-linux-installer.tar" "emacs-sdcc-3.4.0-0.el6.x86_64.rpm" "PIC16F88.pdf" "sdcc/" "sdcc-src-3.7.0.tar.bz2" "1-wire_full.doc" "emacs-for-clojure-book1.zip" "../" "./")
+
+ ("/home/daniel/quicklisp/local-projects/" (23314 64735 996986 822000) "system-index.txt" "HexBurn/" "cl-serial/" "../" "./")
+
+ ("/home/daniel/quicklisp/" (23307 3962 847093 167000) "slime-helper.el" "local-projects/" "dists/" "client-info.sexp" "asdf.lisp" "setup.lisp" "quicklisp/" "tmp/" "../" "./")
+
+ ("/home/daniel/PIC/" (23312 35266 833907 809000) "sdcc-examples/" "blink/" "../" "./")
+
+ ("/home/daniel/PIC/blink/" (23312 39375 317395 209000) "Makefile" "pic_programmer/" "main.cod" "main.hex" "main.o" "main.lst" "main.asm" "picprogrammer/" "src/" "../" "./")
+
+ ("/usr/share/sdcc/non-free/include/pic14/" (23312 29726 620366 717000) "pic16lf88.h" "pic16lf87.h" "pic16lf877.h" "pic16lf877a.h" "pic16lf876.h" "pic16lf876a.h" "pic16lf874.h" "pic16lf874a.h" "pic16lf873.h" "pic16lf873a.h" "pic16lf872.h" "pic16lf871.h" "pic16lf870.h" "pic16lf84.h" "pic16lf84a.h" "pic16lf819.h" "pic16lf818.h" "pic16lf77.h" "pic16lf777.h" "pic16lf76.h" "pic16lf767.h" "pic16lf74.h" "pic16lf747.h" "pic16lf727.h" "pic16lf726.h" "pic16lf724.h" "pic16lf723.h" "pic16lf723a.h" "pic16lf722.h" "pic16lf722a.h" "pic16lf721.h" "pic16lf720.h" "pic16lf707.h" "pic16lf648a.h" "pic16lf628.h" "pic16lf628a.h" "pic16lf627.h" "pic16lf627a.h" "pic16lf1947.h" "pic16lf1946.h" "pic16lf1939.h" "pic16lf1938.h" "pic16lf1937.h" "pic16lf1936.h" "pic16lf1934.h" "pic16lf1933.h" "pic16lf1907.h" "pic16lf1906.h" "pic16lf1904.h" "pic16lf1903.h" "pic16lf1902.h" "pic16lf18875.h" "pic16lf18855.h" "pic16lf1847.h" "pic16lf18345.h" "pic16lf18344.h" "pic16lf18325.h" "pic16lf18324.h" "pic16lf18323.h" "pic16lf18313.h" "pic16lf1829.h" "pic16lf1828.h" "pic16lf1827.h" "pic16lf1826.h" "pic16lf1825.h" "pic16lf1824t39a.h" "pic16lf1824.h" "pic16lf1823.h" "pic16lf1789.h" "pic16lf1788.h" "pic16lf1787.h" "pic16lf1786.h" "pic16lf1784.h" "pic16lf1783.h" "pic16lf1782.h" "pic16lf1779.h" "pic16lf1778.h" "pic16lf1777.h" "pic16lf1776.h" "pic16lf1773.h" "pic16lf1769.h" "pic16lf1768.h" "pic16lf1765.h" "pic16lf1764.h" "pic16lf1719.h" "pic16lf1718.h" "pic16lf1717.h" "pic16lf1716.h" "pic16lf1713.h" "pic16lf1709.h" "pic16lf1708.h" "pic16lf1707.h" "pic16lf1705.h" "pic16lf1704.h" "pic16lf1703.h" "pic16lf1619.h" "pic16lf1618.h" "pic16lf1615.h" "pic16lf1614.h" "pic16lf1613.h" "pic16lf1579.h" "pic16lf1578.h" "pic16lf1575.h" "pic16lf1574.h" "pic16lf1567.h" "pic16lf1566.h" "pic16lf1559.h" "pic16lf1554.h" "pic16lf1527.h" "pic16lf1526.h" "pic16lf1519.h" "pic16lf1518.h" "pic16lf1517.h" "pic16lf1516.h" "pic16lf1513.h" "pic16lf1512.h" "pic16lf1509.h" "pic16lf1508.h" "pic16lf1507.h" "pic16lf1503.h" "pic16lf1459.h" "pic16lf1458.h" "pic16lf1455.h" "pic16lf1454.h" "pic16hv753.h" "pic16hv616.h" "pic16f946.h" "pic16f917.h" "pic16f916.h" "pic16f914.h" "pic16f913.h" "pic16f88.h" "pic16f887.h" "pic16f886.h" "pic16f884.h" "pic16f883.h" "pic16f882.h" "pic16f87.h" "pic16f877.h" "pic16f877a.h" "pic16f876.h" "pic16f876a.h" "pic16f874.h" "pic16f874a.h" "pic16f873.h" "pic16f873a.h" "pic16f872.h" "pic16f871.h" "pic16f870.h" "pic16f84.h" "pic16f84a.h" "pic16f819.h" "pic16f818.h" "pic16f785.h" "pic16f77.h" "pic16f777.h" "pic16f76.h" "pic16f767.h" "pic16f753.h" "pic16f74.h" "pic16f747.h" "pic16f73.h" "pic16f737.h" "pic16f72.h" "pic16f727.h" "pic16f726.h" "pic16f724.h" "pic16f723.h" "pic16f723a.h" "pic16f722.h" "pic16f722a.h" "pic16f721.h" "pic16f720.h" "pic16f716.h" "pic16f707.h" "pic16f690.h" "pic16f689.h" "pic16f688.h" "pic16f687.h" "pic16f685.h" "pic16f684.h" "pic16f677.h" "pic16f676.h" "pic16f648a.h" "pic16f639.h" "pic16f636.h" "pic16f631.h" "pic16f630.h" "pic16f628.h" "pic16f628a.h" "pic16f627.h" "pic16f627a.h" "pic16f616.h" "pic16f610.h" "pic16f1947.h" "pic16f1946.h" "pic16f1939.h" "pic16f1938.h" "pic16f1937.h" "pic16f1936.h" "pic16f1934.h" "pic16f1933.h" "pic16f18875.h" "pic16f18855.h" "pic16f1847.h" "pic16f18345.h" "pic16f18344.h" "pic16f18325.h" "pic16f18324.h" "pic16f18323.h" "pic16f18313.h" "pic16f1829lin.h" "pic16f1829.h" "pic16f1828.h" "pic16f1827.h" "pic16f1826.h" "pic16f1825.h" "pic16f1824.h" "pic16f1823.h" "pic16f1789.h" "pic16f1788.h" "pic16f1787.h" "pic16f1786.h" "pic16f1784.h" "pic16f1783.h" "pic16f1782.h" "pic16f1779.h" "pic16f1778.h" "pic16f1777.h" "pic16f1776.h" "pic16f1773.h" "pic16f1769.h" "pic16f1768.h" "pic16f1765.h" "pic16f1764.h" "pic16f1719.h" "pic16f1718.h" "pic16f1717.h" "pic16f1716.h" "pic16f1713.h" "pic16f1709.h" "pic16f1708.h" "pic16f1707.h" "pic16f1705.h" "pic16f1704.h" "pic16f1703.h" "pic16f1619.h" "pic16f1618.h" "pic16f1615.h" "pic16f1614.h" "pic16f1613.h" "pic16f1579.h" "pic16f1578.h" "pic16f1575.h" "pic16f1574.h" "pic16f1527.h" "pic16f1526.h" "pic16f1519.h" "pic16f1518.h" "pic16f1517.h" "pic16f1516.h" "pic16f1513.h" "pic16f1512.h" "pic16f1509.h" "pic16f1508.h" "pic16f1507.h" "pic16f1503.h" "pic16f1459.h" "pic16f1458.h" "pic16f1455.h" "pic16f1454.h" "pic16c926.h" "pic16c925.h" "pic16c782.h" "pic16c781.h" "pic16c774.h" "pic16c773.h" "pic16c771.h" "pic16c770.h" "pic16c765.h" "pic16c74b.h" "pic16c745.h" "pic16c73b.h" "pic16c72.h" "pic16c71.h" "pic16c717.h" "pic16c715.h" "pic16c711.h" "pic16c710.h" "pic16c65b.h" "pic16c63a.h" "pic16c62.h" "pic16c622.h" "pic16c622a.h" "pic16c621.h" "pic16c621a.h" "pic16c620.h" "pic16c620a.h" "pic16c558.h" "pic16c557.h" "pic16c554.h" "pic16c433.h" "pic16c432.h" "pic14regs.h" "pic12lf1840t48a.h" "pic12lf1840t39a.h" "pic12lf1840.h" "pic12lf1822.h" "pic12lf1612.h" "pic12lf1572.h" "pic12lf1571.h" "pic12lf1552.h" "pic12lf1501.h" "pic12hv752.h" "pic12f752.h" "pic12f683.h" "pic12f675.h" "pic12f635.h" "pic12f629.h" "pic12f617.h" "pic12f615.h" "pic12f609.h" "pic12f1840.h" "pic12f1822.h" "pic12f1612.h" "pic12f1572.h" "pic12f1571.h" "pic12f1501.h" "pic10lf322.h" "pic10lf320.h" "pic10f322.h" "pic10f320.h" "../" "./")
+
+ ("/usr/share/sdcc/non-free/include/" (23312 29723 470366 599000) "pic16/" "pic14/" "../" "./")
+
+ ("/usr/share/sdcc/non-free/" (23312 29723 447033 264000) "include/" "lib/" "../" "./")
+
+ ("/usr/share/sdcc/include/pic14/" (23312 29722 340366 556000) "pic14devices.txt" "p16f_common.inc" "sdcc-lib.h" "pic16regs.h" "pic16fam.h" "math.h" "limits.h" "float.h" "errno.h" "../" "./")
+
+ ("/usr/share/sdcc/include/" (23312 29721 940366 541000) "wchar.h" "uchar.h" "typeof.h" "tinibios.h" "time.h" "string.h" "stdnoreturn.h" "stdlib.h" "stdio.h" "stdint.h" "stddef.h" "stdbool.h" "stdarg.h" "stdalign.h" "setjmp.h" "sdcc-lib.h" "math.h" "limits.h" "iso646.h" "float.h" "errno.h" "ds80c390.h" "ctype.h" "assert.h" "asm/" "hc08/" "z180/" "pic16/" "pic14/" "ds400/" "ds390/" "mcs51/" "../" "./")
+
+ ("/usr/share/sdcc/" (23312 29721 417033 188000) "include/" "non-free/" "lib/" "../" "./")
+
+ ("/usr/share/" (23312 29675 583698 136000) "sdcc/" "gputils/" "boostbook/" "evince/" "djvu/" "texi2html/" "t1lib/" "rlwrap/" "FeedReader/" "wine/" "bleachbit/" "inkscape/" "arduino/" "libftdi/" "geany-plugins/" "geany/" "clojure/" "ImageMagick-6/" "m17n/" "upstart/" "sbcl-source/" "mypaint-data/" "vulkan/" "zenity/" "yelp/" "yelp-xsl/" "xsessions/" "xgreeters/" "xfwm4/" "xfce4/" "xfce4-notes-plugin/" "xfburn/" "wayland-protocols/" "vlc/" "viewnior/" "usb_modeswitch/" "ufw/" "thumbnailers/" "themes/" "subversion/" "sounds/" "snmp/" "slsh/" "sip/" "sgml/" "samba/" "redland/" "qt5ct/" "qt/" "qpdfview/" "pygtk/" "pygobject/" "pulseaudio/" "pulseaudio-ctl/" "poppler/" "ppd/" "plank/" "pixmaps/" "pavucontrol/" "orage/" "openvpn/" "openal/" "omf/" "ntp/" "mugshot/" "ms-office-online/" "mobile-broadband-provider-info/" "mimelnk/" "mime/" "mime-info/" "mesa-demos/" "menulibre/" "manjaro-hello/" "lightdm-gtk-greeter-settings/" "libwacom/" "libtool/" "libthai/" "libreoffice/" "liblouis/" "liblangtag/" "libgphoto2_port/" "libgphoto2/" "libexttextcat/" "libcaca/" "kf5/" "java/" "jack-audio-connection-kit/" "iso-codes/" "intltool/" "installed-tests/" "imlib2/" "idl/" "icons/" "ibus/" "hspell/" "hplip/" "help/" "gvfs/" "gufw/" "gtksourceview-3.0/" "gtk-engines/" "gtk-3.0/" "gtk-2.0/" "gstreamer-1.0/" "gst-plugins-base/" "gst-plugins-bad/" "graphite2/" "gnome/" "gnome-vpn-properties/" "gnome-control-center/" "glade/" "gitweb/" "gitk/" "git/" "git-gui/" "git-core/" "gimp/" "ghostscript/" "gcc-8.1.0/" "galculator/" "foomatic/" "fonts/" "ffmpeg/" "farstream/" "engrampa/" "enchant/" "desktop-directories/" "defaults/" "cups/" "colord/" "color/" "cmake/" "classes/" "catfish/" "caja/" "blueman/" "bison/" "backgrounds/" "avahi/" "automake-1.15/" "autoconf/" "audacious/" "apr-1/" "apps/" "applications/" "application-registry/" "appdata/" "app-info/" "alsa/" "aclocal-1.15/" "accountsservice/" "Thunar/" "ImageMagick-7/" "GConf/" "zsh/" "zoneinfo/" "xml/" "xcb/" "wayland/" "vim/" "vala/" "tlp/" "texinfo/" "terminfo/" "tc/" "tabset/" "systemd/" "ss/" "readline/" "polkit-1/" "pkgconfig/" "perl5/" "pacman/" "pacman-mirrors/" "p11-kit/" "os-prober/" "nano/" "mkinitcpio/" "misc/" "metainfo/" "man/" "makepkg/" "makepkg-template/" "locale/" "licenses/" "libgpg-error/" "libdrm/" "libalpm/" "keyutils/" "kbd/" "info/" "icu/" "iana-etc/" "i18n/" "hwinfo/" "hwdata/" "guile/" "gtk-doc/" "grub/" "groff/" "gnupg/" "glvnd/" "glib-2.0/" "gir-1.0/" "gettext/" "gettext-0.19.8/" "gdb/" "fish/" "file/" "factory/" "et/" "emacs/" "ecryptfs-utils/" "doc/" "dnsmasq/" "dict/" "dhcpcd/" "dhclient/" "dbus-1/" "cracklib/" "common-lisp/" "ca-certificates/" "bash-completion/" "awk/" "aclocal/" "X11/" "../" "./")
+
+ ("/usr/" (23312 27533 96951 126000) "avr/" "x86_64-pc-linux-gnu/" "lib32/" "etc/" "src/" "share/" "local/" "lib/" "include/" "bin/" "sbin/" "lib64/" "../" "./")
+
+ ("/home/daniel/PIC/blink/src/" (23312 33787 423852 330000) "main.c" "../" "./")
+
+ ("/home/daniel/emacs.d/settings/" (23302 4169 667087 573000) "setup-lisp-mode.elc" "setup-package.elc" "setup-lisp-mode.el" "slime-repl-ansi-color.el" "slime-annot.el" "setup-slime-repl-mode.el" "setup-slime-mode.el" "setup-paredit.el" "setup-package.el" "setup-org-mode.el" "setup-elixir-mode.el" "setup-c-mode.el" "setup-c++-mode.el" "appearance.el" "../" "./")
+
+ ("/home/daniel/emacs.d/" (23302 4169 673754 239000) "site-lisp/" "init.elc" "custom.el" "network-security.data" "init.el" "ac-comphist.dat" ".places" "backups/" "settings/" "auto-save-list/" "elpa/" ".git/" "../" "./")
+
+ ("/home/daniel/quicklisp/local-projects/cl-serial/" (23307 1200 110322 898000) "serial.lisp" "serial-lowlevel.lisp" "serial-lowlevel-sbcl.lisp" "serial-lowlevel-clisp.lisp" "packages.lisp" "cl-serial.asd" "README.md" "LICENSE" ".git/" "../" "./")
+
+ ("/home/" (23301 58257 683377 290000) "daniel/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

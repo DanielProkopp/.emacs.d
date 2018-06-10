@@ -1,0 +1,24 @@
+;;;; package.lisp
+;;; definitions
+
+(defpackage #:HexBurn
+  (:use #:cl)
+  (:export *firmware-type-list*
+           *core-type-list*))
+
+(defparameter *firmware-type-list* '(0  "K128"
+                                     1  "K149-A"
+                                     2  "K149-B"
+                                     3  "K150"))
+
+(defparameter *core-type-list* '(0  "NA"
+                                 1  "18Fx230x330"
+                                 2  "18Fxx2xx8"
+                                 3  "16F87/88"
+                                 4  "12C50x"
+                                 5  ("12C67x" "16C50x" "16Cxxx")
+                                 6  ("16C8x" "16F8x" "16F87x" "16F62x")
+                                 7  ("16F7x" "16F7x7")
+                                 8  "12F67x"
+                                 9  "16F87xA"
+                                 10 "16F818"))
