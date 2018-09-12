@@ -12,7 +12,7 @@
  ("/home/daniel/.emacs.d/" . "customizations/")
  ("/home/daniel/quicklisp/local-projects/" . "HexBurn/")
  ("/home/daniel/quicklisp/" . "local-projects/")
- ("/home/daniel/" . ".emacs.d/")
+ ("/home/daniel/" . "Test/")
  ("/home/" . "daniel/")
  ("/" . "usr/")
  ("/home/daniel/.emacs.d/customizations/" . "langs/")
@@ -20,6 +20,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/daniel/Test/"
  "/home/daniel/.emacs.d/"
  "/home/daniel/.emacs.d/customizations/langs/"
  "/home/daniel/"
@@ -36,6 +37,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "Makefile"
+ "main.cpp"
  "init.el"
  "setup-lisp-mode.el"
  "hexburn.lisp"
@@ -44,15 +47,15 @@
  "HexBurn.lisp"
  "asdf.lisp"
  ".ICEauthority"
- "HexBurn.asd"
- "pic16f88.h"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/daniel/.emacs.d/" (23324 29001 478507 187000) "init.elc" "auto-save-list/" "projectile-bookmarks.eld" "backups/" "README.md" ".smex-items" "eshell/" "init.el" "themes/" ".git/" "network-security.data" "../" "./" "customizations/" ".recentf" "init.el~" "cider-history" "elpa/" "ido.last" ".gitignore" "ac-comphist.dat")
+ ("/home/daniel/Test/" (23428 37591 404491 229000) "Makefile" "protocol/" "driver/" "util/" "main.cpp" "../" "./")
 
- ("/home/daniel/" (23324 28947 866126 918000) ".bashrc" ".xsession-errors" ".linuxmint/" ".bash_logout" "Modelos/" ".local/" ".sbclrc" ".gnupg/" "Música/" "Público/" ".slime/" ".gconf/" "quicklisp/" "Documentos/" ".cinnamon/" ".ICEauthority" ".config/" "Vídeos/" ".sudo_as_admin_successful" ".Xauthority" ".emacs.d/" "Área de Trabalho/" ".dmrc" "../" "./" ".thunderbird/" ".profile" ".dbus/" ".mozilla/" ".cache/" "Imagens/" "Downloads/" ".bash_history")
+ ("/home/daniel/" (23428 36586 314482 345000) ".sbclrc" ".arduino15/" "MEGA/" "Public/" ".ICEauthority" ".gnupg/" ".java/" "stlink/" "Videos/" ".mplab_ide/" ".netbeans/" ".xsession-errors.old" "McCLIM/" ".oracle_jre_usage/" ".scenebuilder/" "Card/" "Desktop/" "quicklisp.lisp" ".gnome/" ".adobe/" ".dmrc" "glassfish-4.1.1/" ".wine/" ".hgexternalcache/" ".mchp_packs/" ".profile" "Music/" "quicklisp/" ".bashrc" ".oh-my-zsh/" "Aulas/" ".Xauthority" ".emacs.d/" ".mozilla/" "teste.c" "ADMS/" "Downloads/" ".bash_logout" ".slime/" "../" ".pam_environment" ".local/" ".macromedia/" ".dbus/" ".bash_history" "Templates/" ".mplabcomm/" ".config/" ".mplab_ipe/" "NetBeansProjects/" ".gconf/" "./" "Pictures/" ".cache/" ".zcompdump-prokopp-5.1.1" "incubator-netbeans/" ".jedit/" ".zsh_history" ".viminfo" ".arduino/" ".zcompdump" "firmware_burin/" ".gitconfig" ".android/" ".xsession-errors" "Burnin/" "Arduino/" ".nano/" "Documents/" ".nbi/" ".zshrc" "netbeans-8.2/" ".octave_hist" ".sudo_as_admin_successful" "Test/" "MPLABXProjects/" ".slime-history.eld")
+
+ ("/home/daniel/.emacs.d/" (23407 7297 864288 635000) "eshell/" "init.elc" "ido.last" "elpa/" ".gitignore" "projectile-bookmarks.eld" "README.md" "init.el" "init.el~" ".git/" "themes/" "ac-comphist.dat" "customizations/" "backups/" "../" "network-security.data" "cider-history" "auto-save-list/" "./")
 
  ("/home/daniel/.emacs.d/customizations/langs/" (23324 28656 512058 162000) "setup-lisp-mode.elc" "setup-js.elc" "slime-repl-ansi-color.elc" "setup-js.el" "setup-clojure.elc" "setup-c-mode.el" "slime-repl-ansi-color.el" "../" "./" "setup-clojure.el" "setup-lisp-mode.el" "setup-c-mode.elc")
 

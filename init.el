@@ -1,7 +1,8 @@
+
 ;;;;
 ;; Packages
 ;;;;
-
+(require 'iso-transl)
 ;; Define package repositories
 (require 'package)
 (add-to-list 'package-archives
@@ -130,7 +131,7 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (ac-slime slime-repl undo-tree company-c-headers neotree slime-company highlight-quoted flx flx-ido flycheck-clojure tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking cider))))
+    (all-the-icons ac-slime slime-repl undo-tree company-c-headers neotree slime-company highlight-quoted flx flx-ido flycheck-clojure tagedit smex rainbow-delimiters projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
