@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/daniel/.emacs.d/elpa/" . "neotree-20170522.758/")
  ("/home/daniel/Downloads/" . "kitsrus_pic_programmer/")
  ("/usr/share/sdcc/non-free/include/" . "pic14/")
  ("/usr/share/sdcc/non-free/" . "include/")
@@ -20,6 +21,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/daniel/.emacs.d/elpa/neotree-20170522.758/"
  "/home/daniel/Test/"
  "/home/daniel/.emacs.d/"
  "/home/daniel/.emacs.d/customizations/langs/"
@@ -37,6 +39,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "neotree.el"
  "Makefile"
  "main.cpp"
  "init.el"
@@ -46,16 +49,19 @@
  "protocol.txt"
  "HexBurn.lisp"
  "asdf.lisp"
- ".ICEauthority"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/daniel/.emacs.d/elpa/neotree-20170522.758/" (23454 61082 143436 182000) "../" "icons/" "neotree-autoloads.el" "neotree.el" "./" "neotree.elc" "neotree-pkg.el")
+
+ ("/home/daniel/.emacs.d/elpa/" (23454 61082 213436 185000) "../" "flx-20151030.1112/" "undo-tree-0.6.5/" "seq-2.20/" "ac-c-headers-20151021.834/" "projectile-20180522.48/" "epl-20180205.1249/" "highlight-quoted-20140916.1122/" "let-alist-1.0.5/" "cl-lib-0.6.1.signed" "rainbow-delimiters-20170929.432/" "cider-readme.txt" "smex-20151212.1409/" "flx-0.1/" "let-alist-1.0.5.signed" "all-the-icons-20180125.1557/" "company-c-headers-20170531.1330/" "macrostep-20161120.1306/" "seq-2.20.signed" "spinner-1.7.3.signed" "s-20180406.108/" "gnupg/" "./" "ido-ubiquitous-20140526.1306/" "async-20180527.1030/" "clojure-mode-20180526.225/" "auto-complete-20170124.1845/" "ghub-20180417.1527/" "spinner-1.7.3/" "company-20180501.11/" "with-editor-20180414.757/" "popup-20160709.729/" "clojure-mode-extra-font-locking-20180114.911/" "queue-0.2.signed" "undo-tree-0.6.5.signed" "cl-lib-0.6.1/" "with-editor-20180726.2044/" "neotree-20170522.758/" "dash-20180413.30/" "git-commit-20180411.1649/" "magit-popup-20180509.1041/" "tagedit-20161121.55/" "memoize-20180614.1930/" "slime-readme.txt" "slime-company-20180119.1043/" "queue-0.2/" "cider-20180527.645/" "slime-20180601.324/" "archives/" "paredit-20171126.1805/" "pkg-info-20150517.443/" "ac-slime-20171027.1400/" "flycheck-clojure-20170221.1354/" "magit-20180527.658/" "flycheck-20180527.918/" "flx-ido-20180117.719/")
+
+ ("/home/daniel/.emacs.d/" (23454 61474 93450 880000) "../" "network-security.data" ".recentf" "init.el" "ido.last" ".gitignore" "ac-comphist.dat" "backups/" "themes/" "eshell/" "./" ".smex-items" "projectile-bookmarks.eld" ".git/" "cider-history" "README.md" "url/" "init.el~" "elpa/" "customizations/" "init.elc")
+
+ ("/home/daniel/" (23466 42128 840012 725000) "../" ".zsh_history" ".xsession-errors" ".icons/" ".tooling/" "Downloads/" "Documentos/" ".bashrc" ".gitconfig" "Vídeos/" ".themes/" ".ICEauthority" ".mozilla/" ".zcompdump-daniel-pc-5.5.1" ".qet/" ".wine/" "eclipse-workspace/" ".wget-hsts" ".xinitrc" "Público/" ".config/" "Área de trabalho/" ".eclipse/" "MEGA/" "./" "stlink/" ".Xclients" "Imagens/" ".eteks/" ".m2/" ".dmrc" "gcc-xtensa/" ".pki/" "Modelos/" ".bash_logout" ".viminfo" ".zshrc" ".cache/" ".oracle_jre_usage/" "Arduino/" ".p2/" ".gnupg/" ".xsession-errors.old" "qfms/" ".emacs.d/" ".arduino15/" "esp-open-sdk/" ".esd_auth" ".swt/" ".Xauthority" ".dir_colors" ".java/" ".bash_profile" ".local/" "Música/" ".bash_history" ".oh-my-zsh/" ".profile" ".arduino/")
+
  ("/home/daniel/Test/" (23428 37591 404491 229000) "Makefile" "protocol/" "driver/" "util/" "main.cpp" "../" "./")
-
- ("/home/daniel/" (23428 36586 314482 345000) ".sbclrc" ".arduino15/" "MEGA/" "Public/" ".ICEauthority" ".gnupg/" ".java/" "stlink/" "Videos/" ".mplab_ide/" ".netbeans/" ".xsession-errors.old" "McCLIM/" ".oracle_jre_usage/" ".scenebuilder/" "Card/" "Desktop/" "quicklisp.lisp" ".gnome/" ".adobe/" ".dmrc" "glassfish-4.1.1/" ".wine/" ".hgexternalcache/" ".mchp_packs/" ".profile" "Music/" "quicklisp/" ".bashrc" ".oh-my-zsh/" "Aulas/" ".Xauthority" ".emacs.d/" ".mozilla/" "teste.c" "ADMS/" "Downloads/" ".bash_logout" ".slime/" "../" ".pam_environment" ".local/" ".macromedia/" ".dbus/" ".bash_history" "Templates/" ".mplabcomm/" ".config/" ".mplab_ipe/" "NetBeansProjects/" ".gconf/" "./" "Pictures/" ".cache/" ".zcompdump-prokopp-5.1.1" "incubator-netbeans/" ".jedit/" ".zsh_history" ".viminfo" ".arduino/" ".zcompdump" "firmware_burin/" ".gitconfig" ".android/" ".xsession-errors" "Burnin/" "Arduino/" ".nano/" "Documents/" ".nbi/" ".zshrc" "netbeans-8.2/" ".octave_hist" ".sudo_as_admin_successful" "Test/" "MPLABXProjects/" ".slime-history.eld")
-
- ("/home/daniel/.emacs.d/" (23407 7297 864288 635000) "eshell/" "init.elc" "ido.last" "elpa/" ".gitignore" "projectile-bookmarks.eld" "README.md" "init.el" "init.el~" ".git/" "themes/" "ac-comphist.dat" "customizations/" "backups/" "../" "network-security.data" "cider-history" "auto-save-list/" "./")
 
  ("/home/daniel/.emacs.d/customizations/langs/" (23324 28656 512058 162000) "setup-lisp-mode.elc" "setup-js.elc" "slime-repl-ansi-color.elc" "setup-js.el" "setup-clojure.elc" "setup-c-mode.el" "slime-repl-ansi-color.el" "../" "./" "setup-clojure.el" "setup-lisp-mode.el" "setup-c-mode.elc")
 

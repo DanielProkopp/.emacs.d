@@ -120,7 +120,7 @@
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 (global-set-key (kbd "C-\'") 'neotree-toggle)
 (global-set-key (kbd "C-\"") 'neotree-dir)
-
+(set-face-attribute 'default nil :height 100)
 
 
 (custom-set-variables
