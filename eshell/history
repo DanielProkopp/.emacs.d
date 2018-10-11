@@ -22,3 +22,8 @@ cd sly/doc/
 ls
 make
 make all
+make
+echo $PATH
+exec zsh
+quit
+exit

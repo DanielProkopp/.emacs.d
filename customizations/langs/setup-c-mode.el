@@ -12,14 +12,25 @@
 (defun set-newline-and-indent ()
   (local-set-key (kbd "RET") 'newline-and-indent))
 
+(setq company-backends
+  '((company-complete
+     company-c-headers)))
+
+(add-to-list 'company-backends 'company-c-headers)
+(add-hook 'c-mode-hook 'company-backends)
 (add-hook 'c-mode-hook 'set-newline-and-indent)
-(add-hook 'c-mode-hook
-	  (lambda ()	
-	    (add-to-list 'c-mode-hook 'highlight-numbers-mode)
-            (add-to-list 'c-mode-hook 'company-mode)
-            (add-to-list 'c-mode-hook 'company-c-headers)
-            (add-to-list 'c-mode-hook 'company-complete)
-	    (add-to-list 'c-mode-hook 'flycheck-mode)))
+(add-hook 'c-mode-common-hook 'highlight-numbers-mode)
+(add-hook 'c-mode-common-hook 'global-company-mode)
+;;(add-hook 'c-mode-common-hook 'company-mode)
+(add-hook 'c-mode-hook 'company-complete)
+(add-hook 'c-mode-hook 'company-c-headers)
+(add-hook 'c-mode-common-hook 'flycheck-mode)
+
+(setq company-mode 1)
+(setq company-auto-complete 1)
+;;(company-c-headers)
+(highlight-numbers-mode 1)
+
 ;;Setting Tab to indent region if anything is selected
 (defun tab-indents-region () (local-set-key [(tab)] 'fledermaus-maybe-tab))
 (add-hook 'c-mode-common-hook   'tab-indents-region)

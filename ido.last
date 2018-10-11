@@ -13,7 +13,7 @@
  ("/home/daniel/.emacs.d/" . "customizations/")
  ("/home/daniel/quicklisp/local-projects/" . "HexBurn/")
  ("/home/daniel/quicklisp/" . "local-projects/")
- ("/home/daniel/" . "Test/")
+ ("/home/daniel/" . ".emacs.d/")
  ("/home/" . "daniel/")
  ("/" . "usr/")
  ("/home/daniel/.emacs.d/customizations/" . "langs/")
@@ -21,17 +21,18 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/daniel/"
+ "/home/daniel/.emacs.d/customizations/langs/"
+ "/home/daniel/.emacs.d/customizations/"
+ "/home/daniel/.emacs.d/"
+ "/home/daniel/ESP8266_tests/blinky/"
  "/home/daniel/.emacs.d/elpa/neotree-20170522.758/"
  "/home/daniel/Test/"
- "/home/daniel/.emacs.d/"
- "/home/daniel/.emacs.d/customizations/langs/"
- "/home/daniel/"
  "/home/daniel/quicklisp/local-projects/HexBurn/"
  "/home/daniel/quicklisp/"
  "/home/daniel/Downloads/kitsrus_pic_programmer/"
  "/usr/share/sdcc/non-free/include/pic14/"
  "/usr/share/sdcc/include/pic14/"
- "/home/daniel/.emacs.d/customizations/"
  "/home/daniel/emacs.d/"
  "/home/daniel/quicklisp/local-projects/cl-serial/"
  "/home/daniel/quicklisp/local-projects/"
@@ -39,33 +40,35 @@
 
 ;; ----- ido-work-file-list -----
 (
- "neotree.el"
- "Makefile"
- "main.cpp"
+ "test.c"
+ "setup-c-mode.el"
+ "editing.el"
+ "elisp-editing.el"
  "init.el"
  "setup-lisp-mode.el"
- "hexburn.lisp"
- "package.lisp"
- "protocol.txt"
- "HexBurn.lisp"
- "asdf.lisp"
+ "script1.ld"
+ "Makefile"
+ "blinky.c"
+ "neotree.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/daniel/.emacs.d/customizations/langs/" (23486 41325 573555 937000) "../" "setup-clojure.elc" "setup-lisp-mode.el" "setup-c-mode.el" "setup-js.elc" "./" "setup-lisp-mode.elc" "slime-repl-ansi-color.elc" "slime-repl-ansi-color.el" "setup-js.el" "setup-c-mode.elc" "setup-clojure.el")
+
+ ("/home/daniel/.emacs.d/" (23486 41336 693556 354000) "../" "network-security.data" ".recentf" "init.el" "ido.last" ".gitignore" "ac-comphist.dat" "backups/" "themes/" "eshell/" "./" ".smex-items" "projectile-bookmarks.eld" ".git/" "cider-history" "auto-save-list/" "README.md" "url/" "init.el~" "elpa/" "customizations/" "init.elc")
+
+ ("/home/daniel/" (23486 40588 620194 967000) "../" ".zsh_history" "Rebuilds/" ".xsession-errors" ".icons/" "quicklisp.lisp" ".mplab_ipe/" ".tooling/" "Downloads/" "Documentos/" ".bashrc" "test.c" ".gitconfig" "Vídeos/" ".themes/" ".ICEauthority" "291_LeticiaPessoa.pdf" ".mozilla/" ".zcompdump-daniel-pc-5.5.1" ".qet/" ".adobe/" ".wine/" "eclipse-workspace/" ".wget-hsts" "ESP8266_tests/" ".xinitrc" "Público/" ".config/" "MPLABXProjects/" "Área de trabalho/" ".eclipse/" "MEGA/" "./" "stlink/" "Resumo_32448.pdf" ".Xclients" "Imagens/" ".slime-history.eld" ".eteks/" ".m2/" "ipe.key" ".dmrc" "test.sh" "power_fig1-old-grid-model.gif" ".pki/" "Modelos/" ".bash_logout" ".viminfo" ".macromedia/" ".zshrc" ".cache/" ".oracle_jre_usage/" "quicklisp/" "Arduino/" ".p2/" ".mplabcomm/" ".gnupg/" ".xsession-errors.old" "qfms/" ".emacs.d/" ".arduino15/" "esp-open-sdk/" ".slime/" ".esd_auth" ".swt/" ".Xauthority" ".dir_colors" ".ceramic/" ".java/" ".bash_profile" ".local/" ".mplab_ide/" "Música/" ".bash_history" ".oh-my-zsh/" ".profile" ".sbclrc" ".arduino/" ".mchp_packs/" "Hantek/")
+
+ ("/home/daniel/.emacs.d/customizations/" (23454 61082 36769 511000) "../" "shell-integration.el" "elisp-editing.elc" "langs/" "elisp-editing.el" "misc.el" "./" "editing.elc" "navigation.el" "navigation.elc" "ui.el" "ui.elc" "shell-integration.elc" "editing.el" "misc.elc")
+
+ ("/home/daniel/ESP8266_tests/blinky/" (23466 51347 740358 435000) "../" "build/" "blinky.o" "script1.ld" "blinky-0x10000.bin" "./" "blinky.c" "Makefile" "include/" "user_config.h" "app_app.a" "lib/" "blinky")
+
  ("/home/daniel/.emacs.d/elpa/neotree-20170522.758/" (23454 61082 143436 182000) "../" "icons/" "neotree-autoloads.el" "neotree.el" "./" "neotree.elc" "neotree-pkg.el")
 
  ("/home/daniel/.emacs.d/elpa/" (23454 61082 213436 185000) "../" "flx-20151030.1112/" "undo-tree-0.6.5/" "seq-2.20/" "ac-c-headers-20151021.834/" "projectile-20180522.48/" "epl-20180205.1249/" "highlight-quoted-20140916.1122/" "let-alist-1.0.5/" "cl-lib-0.6.1.signed" "rainbow-delimiters-20170929.432/" "cider-readme.txt" "smex-20151212.1409/" "flx-0.1/" "let-alist-1.0.5.signed" "all-the-icons-20180125.1557/" "company-c-headers-20170531.1330/" "macrostep-20161120.1306/" "seq-2.20.signed" "spinner-1.7.3.signed" "s-20180406.108/" "gnupg/" "./" "ido-ubiquitous-20140526.1306/" "async-20180527.1030/" "clojure-mode-20180526.225/" "auto-complete-20170124.1845/" "ghub-20180417.1527/" "spinner-1.7.3/" "company-20180501.11/" "with-editor-20180414.757/" "popup-20160709.729/" "clojure-mode-extra-font-locking-20180114.911/" "queue-0.2.signed" "undo-tree-0.6.5.signed" "cl-lib-0.6.1/" "with-editor-20180726.2044/" "neotree-20170522.758/" "dash-20180413.30/" "git-commit-20180411.1649/" "magit-popup-20180509.1041/" "tagedit-20161121.55/" "memoize-20180614.1930/" "slime-readme.txt" "slime-company-20180119.1043/" "queue-0.2/" "cider-20180527.645/" "slime-20180601.324/" "archives/" "paredit-20171126.1805/" "pkg-info-20150517.443/" "ac-slime-20171027.1400/" "flycheck-clojure-20170221.1354/" "magit-20180527.658/" "flycheck-20180527.918/" "flx-ido-20180117.719/")
 
- ("/home/daniel/.emacs.d/" (23454 61474 93450 880000) "../" "network-security.data" ".recentf" "init.el" "ido.last" ".gitignore" "ac-comphist.dat" "backups/" "themes/" "eshell/" "./" ".smex-items" "projectile-bookmarks.eld" ".git/" "cider-history" "README.md" "url/" "init.el~" "elpa/" "customizations/" "init.elc")
-
- ("/home/daniel/" (23466 42128 840012 725000) "../" ".zsh_history" ".xsession-errors" ".icons/" ".tooling/" "Downloads/" "Documentos/" ".bashrc" ".gitconfig" "Vídeos/" ".themes/" ".ICEauthority" ".mozilla/" ".zcompdump-daniel-pc-5.5.1" ".qet/" ".wine/" "eclipse-workspace/" ".wget-hsts" ".xinitrc" "Público/" ".config/" "Área de trabalho/" ".eclipse/" "MEGA/" "./" "stlink/" ".Xclients" "Imagens/" ".eteks/" ".m2/" ".dmrc" "gcc-xtensa/" ".pki/" "Modelos/" ".bash_logout" ".viminfo" ".zshrc" ".cache/" ".oracle_jre_usage/" "Arduino/" ".p2/" ".gnupg/" ".xsession-errors.old" "qfms/" ".emacs.d/" ".arduino15/" "esp-open-sdk/" ".esd_auth" ".swt/" ".Xauthority" ".dir_colors" ".java/" ".bash_profile" ".local/" "Música/" ".bash_history" ".oh-my-zsh/" ".profile" ".arduino/")
-
  ("/home/daniel/Test/" (23428 37591 404491 229000) "Makefile" "protocol/" "driver/" "util/" "main.cpp" "../" "./")
-
- ("/home/daniel/.emacs.d/customizations/langs/" (23324 28656 512058 162000) "setup-lisp-mode.elc" "setup-js.elc" "slime-repl-ansi-color.elc" "setup-js.el" "setup-clojure.elc" "setup-c-mode.el" "slime-repl-ansi-color.el" "../" "./" "setup-clojure.el" "setup-lisp-mode.el" "setup-c-mode.elc")
-
- ("/home/daniel/.emacs.d/customizations/" (23307 35254 0 0) "navigation.el" "elisp-editing.el" "editing.elc" "shell-integration.elc" "navigation.elc" "ui.el" "../" "misc.elc" "./" "elisp-editing.elc" "misc.el" "ui.elc" "editing.el" "langs/" "shell-integration.el")
 
  ("/home/daniel/quicklisp/local-projects/HexBurn/" (23316 8347 140423 699000) "package.lisp" "HexBurn.lisp" "protocol.txt" "HexBurn.asd" "README.md" "../" "./")
 

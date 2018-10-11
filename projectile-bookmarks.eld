@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/Test/" "~/quicklisp/local-projects/cl-serial/" "~/PIC/blink/picprogrammer/" "~/PIC/blink/" "~/MCU/" "~/emacs.d/")
+("~/.emacs.d/" "~/Rebuilds/mate-panel/" "~/Downloads/tcc-0.9.27/" "~/ESP8266_tests/blinky/")
